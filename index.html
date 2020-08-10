@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./script/app.js"></script>
+
+    <!--<script src="./dataHandler.js"></script>
+    <script src="./demoLes.js"></script>-->
+    <link rel="apple-touch-icon" sizes="180x180" href="MyLogo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="MyLogo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="MyLogo.png">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#3385FF">
+    <meta name="msapplication-TileColor" content="#141313">
+    <meta name="theme-color" content="#141313">
+
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/screen.css">
+    <link rel="stylesheet" href="css/loading.css">
+
+    <title>Random Recipe</title>
+</head>
+<body>
+ <section class="o-row o-row--lg ">
+        <div class="o-container">
+            <div class="o-section o-section--lg">
+                <div class="o-layout o-layout--gutter-lg ">
+                    
+
+                    <div class="o-layout__item c-paddingright u-1-of-2-bp3">
+                    
+                        <figure class=" u-mb-lg js-mealThumb ">
+
+                        </figure>
+                        
+                    
+                    </div>  
+                    <div class="o-layout__item c-paddingleft u-1-of-2-bp3"> 
+                        <h1 class="js-nameMeal">data</h1>
+                        
+                        <div class="o-layout">
+                            
+                                <div class="o-layout__item-context js-titleIngredients ">
+                                    <h2 class="c-subtitel">Ingredients:</h2>
+                                    <h2 class="c-ingredients"></h2>
+                                    <progress  class="c-progressbar" id="file" value="50" max="100"></progress>
+                                </div>
+                            
+                            <div class="">
+                                <p class="js-ingredients c-lead c-lead--md">hehe</p> 
+                            </div>
+                        </div>
+
+                        <div class="o-layout">
+                            <div class="o-layout__item-context">
+                                <h2 class="c-subtitel">Instructions</h2>
+                            </div>
+                            <div class="">
+                                <p class="js-instructions c-lead c-lead--md">data</p> 
+                            </div>
+                        </div>  
+                        
+                        <div class="js-tags"></div>
+                        
+
+                        <div class="o-layout">
+                            <div class="o-layout__item-context">
+                                <h2 class="c-subtitel">Culture</h2>
+                            </div>
+                            <div class="o-layout__item-context js-culture">
+                                
+                            </div>
+                        </div>
+
+
+                        <div class="js-source"></div>
+                        
+                        <a href="file:///D:/HoWest%202018-2021/Semester3/interaction%20design/Herexamen/RandomRecepts/index.html" class="c-link-cta c-link-cta--lg js-button">New recipe!</a>
+                    </div>  
+                </div>
+                <div class="c-loader__wrapper js-loader ">
+                    <div id="loader" class="box">
+                        <div class="b b1">
+                            <div class="b b2 c-center">
+                                <div class="c-flex ">
+                                    <img  id="loading" src="./img/96.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- loading -->
+            </div>
+        </div>
+    </section>
+</body>
+</html>
